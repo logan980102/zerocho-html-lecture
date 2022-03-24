@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -15,7 +22,7 @@ html, body {
 }
 
 #header-search {
-    padding-top: 40px;
+    padding-top: 76px;
 }
 #header-search h1 {
     width: 198px;
@@ -250,4 +257,147 @@ header {
     margin-top: -9px;
     color: #00ab33;
     font-size: 16px;
+}
+
+main {
+    background: #f2f4f7;
+    width: 100%;
+    display: inline-block;
+}
+
+#main-centered {
+    padding: 8px 10px 0;
+    width: 1100px;
+}
+
+#main-first-block {
+    display: inline-block;
+    width: 100%;
+}
+
+#main-second-block .inline-block:first-child {
+    width: 740px;
+    margin-right: 8px;
+    float: left;
+}
+
+#main-second-block .inline-block:last-child {
+    width: 332px;
+    vertical-align: top;
+}
+
+#main-ad {
+    width: 740px;
+    height: 120px;
+    background: #555;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    float: left;
+}
+
+#main-login {
+    width: 332px;
+    height: 120px;
+    vertical-align: top;
+    background: #fff;
+    float: left;
+}
+
+#main-ytn {
+    width: 740px;
+    height: 46px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+#main-ytn h3, #main-ytn ol{
+    display: inline-block;
+}
+
+#main-newsstand {
+    width: 740px;
+    height: 246px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+#main-newsstand h3 {
+    height: 45px;
+    border-bottom: 1px solid #f1f3f6;
+}
+
+#main-newsstand ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-newsstand li{
+    float: left;
+    width: 123px;
+    height: 67px;
+    border-right: 1px solid #f1f3f6;
+    border-bottom: 1px solid #f1f3f6;
+    text-align: center;
+}
+
+#main-newsstand li img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#main-weather {
+    width: 332px;
+    height: 142px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+#main-second-ad {
+    width: 332px;
+    height: 150px;
+    display: inline-block;
+    background: #555;
+}
+
+#main-category {
+    width: 740px;
+    height: 837px;
+    float: left;
+    background: #fff;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+#main-shopping {
+    width: 332px;
+    height: 837px;
+    float: left;
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+#main-event {
+    width: 740px;
+    height: 130px;
+    background: #fff;
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+#main-third-ad {
+    width: 332px;
+    height: 130px;
+    background: #555;
+    float: left;
+}
+
+#main-third-block {
+    display: inline-block;
+    width: 100%;
 }
